@@ -1,0 +1,9 @@
+- From the input CSV file, analysed the table and their columns.
+- Registeredd connection string in appsettings.json
+- Created model classes for Customer,Product,Category and Order.
+- Created DBContext classes for the model created
+- Registered connection string along with dbcontext in Program.cs
+- created service to insert records into table by uploading file
+- registered the dependency in the Program.cs file.
+- Created controller by injecting the service to get the file and to send them to the services using httpPost
+- Likewise done the report generation.
